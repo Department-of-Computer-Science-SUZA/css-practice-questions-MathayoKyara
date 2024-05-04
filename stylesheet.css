@@ -1,0 +1,63 @@
+/* stylesheet.css */
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:green;
+    color: purple;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: purple;
+    text-decoration: red;
+}
+
+nav ul li a:hover {
+    color: brown;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Specific Page Styles */
+h2 {
+    color: blue;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+}
